@@ -7,10 +7,11 @@
 body
 {
     background-color: rgb(20, 150, 155);
+    background-image: -webkit-linear-gradient(120deg, #313131 50%, #4f5355 50%);
 }
 
 .container{
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -63,27 +64,67 @@ body
 }
 
 .personal_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.personal_control{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
 }
 
+
 .education_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.education_control{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
 }
 
 .address_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.address_control{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
 }
 
 .job_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.job_control{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 label{
@@ -91,11 +132,12 @@ label{
     margin-bottom: 5px;
 }
 
-input, select, textarea{
+input, select{
     padding: 6px 10px;
     border: 1px solid #ccc;
     border-radius: 25px;
     font-size: 15px;
+    margin-bottom: 3px;
 }
 
 .button_container{
@@ -121,8 +163,25 @@ button:hover{
     cursor: pointer;
 }
 
-.textarea_control textarea{
-    width: 100%;
-    grid-column: 1/ span2;
+textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.textarea_control{
+    grid-column:1 /span 2;
     font-weight: bolder;
 }
+.textarea_control textarea{
+    width: 100%;
+}
+
+/*@media screen {
+    max-width: 460px;
+    .textarea_control{
+        grid-column:1 / span 1 ;
+    }
+}*/
