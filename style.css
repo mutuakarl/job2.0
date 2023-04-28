@@ -59,6 +59,34 @@ body
     text-align: center;
 }
 
+.apply_box1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-style: outset;
+
+}
+
+.apply_box2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-style: outset;
+
+}
+
+.apply_box3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-style: outset;
+
+}
+
+.apply_box4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-style: outset;
+
+}
+
 .title_small{
     font-size: 20px;
 }
