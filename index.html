@@ -16,288 +16,295 @@
     <div class="container">
     <p>Here for the Job? Let's get to it</p>
     <!--We have to make several forms-->
-    <div class="apply_box1">
-    <div class="personal_container">
-        <h4>Personal information</h4>
-        <div class="personal_control">
-            <label for="first_name">First Name</label>
-            <input 
-            type="text"
-            id="first_name"
-            name="first_name"
-            placeholder="first name as per your ID"
-            required>
+    <div class="grid-container">
+        <div class="grid-child purple">
+            <div class="apply_box1">
+                <div class="personal_container">
+                    <div class="personal_control">
+                        <label for="first_name">First Name</label>
+                        <input 
+                        type="text"
+                        id="first_name"
+                        name="first_name"
+                        placeholder="first name as per your ID"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="last_name">Last Name</label>
+                        <input
+                        type="text"
+                        id="last_name"
+                        name="last_name"
+                        placeholder="last name as per your ID"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="no">Phone Number</label>
+                        <input
+                        type="number"
+                        id="no"
+                        name="no"
+                        placeholder="254-714-343-440"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="dob">D.O.B</label>
+                        <input
+                        value="2023-01-01"
+                        type="date"
+                        id="dob"
+                        name="dob"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="id">Upload national ID</label>
+                        <input
+                        type="file"
+                        id="id"
+                        name="id"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="bc">Upload your Birth certificate</label>
+                        <input
+                        type="file"
+                        id="bc"
+                        name="id"
+                        required>
+                    </div>
+                    <div class="personal_control">
+                        <label for="marital_status">Marital status</label>
+                        <select id="marital_status" name="marital_status" required>
+                            <option value="">Select your marital status</option>
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                            <option value="divorced">Divorced</option>
+                        </select>
+                    </div>
+                    <div class="personal_control">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="select your gender">Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="rather_not_say">Rather not say</option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <!--My first form for the web page is complete-->
         </div>
-        <div class="personal_control">
-            <label for="last_name">Last Name</label>
-            <input
-            type="text"
-            id="last_name"
-            name="last_name"
-            placeholder="last name as per your ID"
-            required>
-        </div>
-        <div class="personal_control">
-            <label for="no">Phone Number</label>
-            <input
-            type="number"
-            id="no"
-            name="no"
-            placeholder="254-714-343-440"
-            required>
-        </div>
-        <div class="personal_control">
-            <label for="dob">D.O.B</label>
-            <input
-            value="2023-01-01"
-            type="date"
-            id="dob"
-            name="dob"
-            required>
-        </div>
-        <div class="personal_control">
-            <label for="id">Upload national ID</label>
-            <input
-            type="file"
-            id="id"
-            name="id"
-            required>
-        </div>
-        <div class="personal_control">
-            <label for="bc">Upload your Birth certificate</label>
-            <input
-            type="file"
-            id="bc"
-            name="id"
-            required>
-        </div>
-        <div class="personal_control">
-            <label for="marital_status">Marital status</label>
-            <select id="marital_status" name="marital_status" required>
-                <option value="">Select your marital status</option>
-                <option value="single">Single</option>
-                <option value="married">Married</option>
-                <option value="divorced">Divorced</option>
-            </select>
-        </div>
-        <div class="personal_control">
-            <label for="gender">Gender</label>
-            <select id="gender" name="gender">
-                <option value="select your gender">Select your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="rather_not_say">Rather not say</option>
-            </select>
+        <div class="grid-child green">
+            <div class="apply_box2">
+                <div class="education_container">
+                    <div class="education_control">
+                        <label for="uni">University</label>
+                        <input
+                        type="text"
+                        id="uni"
+                        name="uni"
+                        placeholder="where did you study ?"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="deg">Upload your degree</label>
+                        <input 
+                        type="file"
+                        id="deg"
+                        name="deg"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="high_school">High school</label>
+                        <input 
+                        type="text"
+                        id="high_school"
+                        name="high_school"
+                        placeholder="where did you study ?"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="kcse">Upload your KCSE certificate</label>
+                        <input
+                        type="file"
+                        id="kcse"
+                        name="kcse"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="primary_school">Primary school</label>
+                        <input
+                        type="text"
+                        id="primary_school"
+                        name="primary_school"
+                        placeholder="where did you study ?"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="kcpe">Upload your KCPE certificate</label>
+                        <input
+                        type="file"
+                        id="kcpe"
+                        name="kcpe"
+                        required>
+                    </div>
+                    <div class="education_control">
+                        <label for="cv">Upload your latest CV</label>
+                        <input
+                        type="file"
+                        id="cv"
+                        name="cv"
+                        required>
+                    </div>
+                </div>
+                </div>
+                <!--My second form is complete-->
         </div>
     </div>
+    <div class="grid_container">
+        <div class="grid_child purple">
+            <div class="apply_box3">
+                <div class="address_container">
+                    <div class="address_control">
+                        <label for="phy_address">Physical primary address</label>
+                        <input
+                        type="number"
+                        id="phy_address"
+                        name="phy_address"
+                        placeholder="what's your primary address ?"
+                        required>
+                    </div>
+                    <div class="address_control">
+                        <label for="zip">You zip code</label>
+                        <input 
+                        type="number"
+                        id="zip"
+                        name="zip"
+                        placeholder="1234"
+                        required>
+                    </div>
+                    <div class="address_control">
+                        <label for="phys_address">Physical secondary address</label>
+                        <input
+                        type="number"
+                        id="phys_address"
+                        name="phys_address"
+                        placeholder="optional">
+                    </div>
+                    <div class="address_control">
+                        <label for="email">Email address</label>
+                        <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="gmail, outlook, yahoo (any)"
+                        required>
+                    </div>
+                    <div class="address_control">
+                        <label for="emails">Secondary email address</label>
+                        <input
+                        type="email"
+                        id="emails"
+                        name="emails"
+                        placeholder="optional">
+                    </div>
+                    <div class="address_control">
+                        <label for="county">Residential county</label>
+                        <input
+                        type="text"
+                        id="county"
+                        name="county"
+                        placeholder="Nairobi"
+                        required>
+                    </div>
+                    <div class="address_control">
+                        <label for="estate">Estate</label>
+                        <input 
+                        type="text"
+                        id="estate"
+                        name="estate"
+                        placeholder="estate"
+                        required>
+                    </div>
+                </div> 
+                </div>
+                <!--My third form is complete-->
+        </div>
+        <div class="grid_child green">
+            <div class="apply_box4">
+                <div class="job_container">
+                    <div class="job_control">
+                        <label for="role">Job Role</label>
+                        <select id="role" name="role">
+                            <option value="front_end_developer">Front End Developer</option>
+                            <option value="Back_end_developer">Back End Developer</option>
+                            <option value="python_dev">Python Developer</option>
+                            <option value="Java_dev">Java Developer</option>
+                            <option value="project_manager">Project Manager</option>
+                        </select>
+                    </div>
+                    <div class="job_control">
+                        <label for="pay">Expected Monthly pay</label>
+                        <input
+                        type="number"
+                        id="pay"
+                        name="pay"
+                        placeholder="How much ?"
+                        required>
+                    </div>
+                    <div class="job_control">
+                        <label for="contract">Contract</label>
+                        <select id="contract" name="contract">
+                            <option value="less_than_a_year">Less than a year</option>
+                            <option value="1_to_2_yrs">1 to 2 years</option>
+                            <option value="2_to_4_yrs">2 to 4 years</option>
+                            <option value="4_to_6_yrs">4 to 6 years</option>
+                        </select>
+                    </div>
+                    <div class="job_control">
+                        <label for="exp_his">For how long have you been coding?</label>
+                        <input
+                        type="number"
+                        id="exp_his"
+                        name="exp_his"
+                        placeholder="in terms of years"
+                        required>
+                    </div>
+                    <div class="job_control">
+                        <label for="git_hub">Link to your Github</label>
+                        <input
+                        type="text"
+                        id="git_hub"
+                        name="git_hub"
+                        placeholder="paste the link"
+                        required>
+                    </div>
+                    <div class="job_control">
+                        <label for="portfolio">Your portfolio website</label>
+                        <input
+                        type="text"
+                        id="portfolio"
+                        name="portfolio"
+                        placeholder="paste here"
+                        required>
+                    </div>
+                    <div class="textarea_control">
+                        <label for="why_us">Why us</label>
+                        <textarea
+                        id="why_us"
+                        name="why_us"
+                        row="10"
+                        cols="49"
+                        placeholder="Tell us your reason for choosing our company"
+                        required></textarea>
+                    </div> 
+                </div>
+                    <!--my fourth form is complete-->
+        </div>
+        <div class="button_container">
+            <button type="submit">Apply now</button>
+        </div>
     </div>
-    <!--My first form for the web page is complete-->
-    <div class="apply_box2">
-    <div class="education_container">
-        <h4>Education</h4>
-        <div class="education_control">
-            <label for="uni">University</label>
-            <input
-            type="text"
-            id="uni"
-            name="uni"
-            placeholder="where did you study ?"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="deg">Upload your degree</label>
-            <input 
-            type="file"
-            id="deg"
-            name="deg"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="high_school">High school</label>
-            <input 
-            type="text"
-            id="high_school"
-            name="high_school"
-            placeholder="where did you study ?"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="kcse">Upload your KCSE certificate</label>
-            <input
-            type="file"
-            id="kcse"
-            name="kcse"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="primary_school">Primary school</label>
-            <input
-            type="text"
-            id="primary_school"
-            name="primary_school"
-            placeholder="where did you study ?"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="kcpe">Upload your KCPE certificate</label>
-            <input
-            type="file"
-            id="kcpe"
-            name="kcpe"
-            required>
-        </div>
-        <div class="education_control">
-            <label for="cv">Upload your latest CV</label>
-            <input
-            type="file"
-            id="cv"
-            name="cv"
-            required>
-        </div>
-    </div>
-    </div>
-    <!--My second form is complete-->
-    <div class="apply_box3">
-    <div class="address_container">
-        <h4>Addresses</h4>
-        <div class="address_control">
-            <label for="phy_address">Physical primary address</label>
-            <input
-            type="number"
-            id="phy_address"
-            name="phy_address"
-            placeholder="what's your primary address ?"
-            required>
-        </div>
-        <div class="address_control">
-            <label for="zip">You zip code</label>
-            <input 
-            type="number"
-            id="zip"
-            name="zip"
-            placeholder="1234"
-            required>
-        </div>
-        <div class="address_control">
-            <label for="phys_address">Physical secondary address</label>
-            <input
-            type="number"
-            id="phys_address"
-            name="phys_address"
-            placeholder="optional">
-        </div>
-        <div class="address_control">
-            <label for="email">Email address</label>
-            <input 
-            type="email"
-            id="email"
-            name="email"
-            placeholder="gmail, outlook, yahoo (any)"
-            required>
-        </div>
-        <div class="address_control">
-            <label for="emails">Secondary email address</label>
-            <input
-            type="email"
-            id="emails"
-            name="emails"
-            placeholder="optional">
-        </div>
-        <div class="address_control">
-            <label for="county">Residential county</label>
-            <input
-            type="text"
-            id="county"
-            name="county"
-            placeholder="Nairobi"
-            required>
-        </div>
-        <div class="address_control">
-            <label for="estate">Estate</label>
-            <input 
-            type="text"
-            id="estate"
-            name="estate"
-            placeholder="estate"
-            required>
-        </div>
-    </div> 
-    </div>
-    <!--My third form is complete-->
-    <div class="apply_box4">
-    <div class="job_container">
-        <h4>Job Role</h4>
-        <div class="job_control">
-            <label for="role">Job Role</label>
-            <select id="role" name="role">
-                <option value="front_end_developer">Front End Developer</option>
-                <option value="Back_end_developer">Back End Developer</option>
-                <option value="python_dev">Python Developer</option>
-                <option value="Java_dev">Java Developer</option>
-                <option value="project_manager">Project Manager</option>
-            </select>
-        </div>
-        <div class="job_control">
-            <label for="pay">Expected Monthly pay</label>
-            <input
-            type="number"
-            id="pay"
-            name="pay"
-            placeholder="How much ?"
-            required>
-        </div>
-        <div class="job_control">
-            <label for="contract">Contract</label>
-            <select id="contract" name="contract">
-                <option value="less_than_a_year">Less than a year</option>
-                <option value="1_to_2_yrs">1 to 2 years</option>
-                <option value="2_to_4_yrs">2 to 4 years</option>
-                <option value="4_to_6_yrs">4 to 6 years</option>
-            </select>
-        </div>
-        <div class="job_control">
-            <label for="exp_his">For how long have you been coding?</label>
-            <input
-            type="number"
-            id="exp_his"
-            name="exp_his"
-            placeholder="in terms of years"
-            required>
-        </div>
-        <div class="job_control">
-            <label for="git_hub">Link to your Github</label>
-            <input
-            type="text"
-            id="git_hub"
-            name="git_hub"
-            placeholder="paste the link"
-            required>
-        </div>
-        <div class="job_control">
-            <label for="portfolio">Your portfolio website</label>
-            <input
-            type="text"
-            id="portfolio"
-            name="portfolio"
-            placeholder="paste here"
-            required>
-        </div>
-        <div class="textarea_control">
-            <label for="why_us">Why us</label>
-            <textarea
-            id="why_us"
-            name="why_us"
-            row="10"
-            cols="49"
-            placeholder="Tell us your reason for choosing our company"
-            required></textarea>
-        </div> 
-    </div>
-        <!--my fourth form is complete-->
-    </div>
-    <br>
-    <div class="button_container">
-        <button type="submit">Apply now</button>
     </div>
     </div>
 </body>
